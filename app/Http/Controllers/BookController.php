@@ -7,9 +7,8 @@ use PHPOpenSourceSaver\JWTAuth\Facades\JWTAuth;
 
 class BookController extends Controller
 {
-
-
-    public function getBooks(){
+    public function getBooks()
+    {
         return response()->json([
             'success' => "ok",
             'message' => 'Akan dibuat list buku'

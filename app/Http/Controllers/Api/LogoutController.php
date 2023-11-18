@@ -32,7 +32,7 @@ class LogoutController extends Controller
                 [
                     'success' => false,
                     'message' => "Maaf, proses Log out tidak dapat dilakukan",
-                    'exception' => $exception,
+                    'exception' => $exception->getMessage(),
                 ],
                 500
             );
